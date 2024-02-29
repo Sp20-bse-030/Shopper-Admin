@@ -1,0 +1,52 @@
+.addproduct{
+    display:  flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+    padding: 5vmax;
+    justify-content: center ;
+    width: 55vmax;
+}
+.addproducttitle input{
+    width: 50vmax;
+    padding: 1vmax;
+}
+.addproductpricefeilds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addproductpricefeilds input{
+    width: 20vmax;
+    padding: 1vmax;
+}
+.addproductcategoryupload{
+    display: flex;
+    justify-content: space-between;
+}
+.addimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vmax;
+}
+.uploadinmage{
+    width: 5vmax;
+    height: 5vmax;
+    
+}
+
+button{
+    background-color: rgb(116, 116, 202);
+    width: 9vmax;
+    height:3vmax;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22vmax;
+    font-size: 1.5vmax;
+    
+}
+

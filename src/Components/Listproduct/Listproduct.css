@@ -1,0 +1,34 @@
+.productformat{
+    display: grid;
+    grid-template-columns: 10vmax 22vmax 10vmax 10vmax 10vmax 10vmax  ;
+    background-color: aliceblue;
+    width: 73vmax;
+    padding: 1vmax;
+    margin-top: 0.4vmax;
+    margin-left: 0.4vmax;
+    font-size: 1.4vmax;
+
+}
+.itemdetails{
+    display: grid;
+    grid-template-columns: 10vmax 22vmax 10vmax 10vmax 10vmax 10vmax ;
+    
+    width: 73vmax;
+    padding: 1vmax;
+    margin-top: 0.4vmax;
+    margin-left: 0.4vmax;
+
+}
+.itemdetails img{
+    height: 5vmax;
+    width: 5vmax;
+}
+.allitemdetails{
+
+
+}
+.allitemdetails hr{
+    height: 2px;
+    width:  70vmax ;
+    background-color: black;
+}

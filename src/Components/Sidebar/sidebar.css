@@ -1,0 +1,53 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 19vmax;
+    
+    background-color: white;
+    margin-top: 0.3vmax;
+    
+    padding: 1.5vmax;
+    gap: 2vmax;
+    
+
+}
+.sidebaritems{
+    display:flex;
+    gap: 2vmax;
+    background-color: rgb(192, 190, 190);
+    padding: 0.7vmax;
+    border-radius: 1.5vmax;
+    
+    align-items: center;
+    
+}
+.sidebaritems img{
+    width: 4vmax;
+    height: 4vmax;
+}
+@media(max-width:1024px) 
+{
+    .sidebaritems{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}
+@media(max-width:800px) 
+{
+    .sidebaritems p{
+        display: none;
+        
+
+        
+    }
+    .sidebaritems img{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+
+        
+    }
+
+}
